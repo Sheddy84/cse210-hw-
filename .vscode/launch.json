@@ -91,7 +91,7 @@
             "cwd": "${workspaceFolder}/prepare/Learning02",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
-            "stopAtEntry": false
+            "stopAtEntry": false,
         },
 
         {
