@@ -25,6 +25,16 @@ class Program
             {
                 Console.WriteLine("You guessed it!");
             }
-        }                    
+        }   
+        while (guess == magicNumber)
+        {
+            string input = "";
+
+            do
+            {
+            Console.Write("Do you want to continue? Y/N ");
+            input = Console.ReadLine();
+            } while (input == "yes");
+        }                                     
     }
 }
