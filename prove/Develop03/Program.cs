@@ -6,4 +6,8 @@ class Program
     {
         Console.WriteLine("Hello Develop03 World!");
     }
+    for (int i = 2; i <= 20; i = i + 2)
+{
+    Console.WriteLine(i);
 }
+}  
